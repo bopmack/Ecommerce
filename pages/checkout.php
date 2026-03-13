@@ -6,8 +6,8 @@ require_once __DIR__ . '/../includes/helpers.php';
 requireLogin();
 
 // Stripe keys — replace with your keys
-$stripeSecretKey = 'sk_test_2vAIb3jJADZ1rCjv1XA9Bwei00G1FmYJfr';
-$stripePublishableKey = 'pk_test_aI81vN68kLTzffxUVnTBcEf3005x6AyOXC';
+$stripeSecretKey = ' ';
+$stripePublishableKey = ' ';
 
 // Fetch cart
 $stmt = $pdo->prepare('
